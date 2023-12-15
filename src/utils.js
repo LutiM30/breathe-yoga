@@ -3,6 +3,9 @@ import image2 from "assets/images/Yoga.jpg";
 import image3 from "assets/images/poses.jpg";
 import image4 from "assets/images/gold.png";
 import image5 from "assets/images/silver.png";
+import melli from "assets/images/melli.jpg";
+import george from "assets/images/George.png";
+import ria from "assets/images/ria.jpg";
 
 export const whoWeAreText = `The first sutra is simple. You may interpret it as: Here we are,
             you’ve got everything you need, so let’s get it on. He then moves to
@@ -116,3 +119,23 @@ export const dotsVariants = {
     transition: { duration: 0.2 },
   },
 };
+export const instructors = [
+  {
+    name: "Melli Smith",
+    email: "melli@breatheyoga.com",
+    phone: "(324)-575-9343",
+    img: melli,
+  },
+  {
+    name: "George Mark",
+    email: "George@breatheyoga.com",
+    phone: "(324)-606-1123",
+    img: george,
+  },
+  {
+    name: "Ria Patel",
+    email: "ria@breatheyoga.com",
+    phone: "(324)-18-2235",
+    img: ria,
+  },
+];
