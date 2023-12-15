@@ -1,0 +1,160 @@
+body {
+  font-family: Century Gothic, CenturyGothic, AppleGothic, serif;
+  background-color: #daaf8a;
+}
+nav,
+footer {
+  background: rgb(5, 75, 94);
+}
+
+nav {
+  margin: -8px -8px 0px;
+  padding-bottom: 10px;
+  position: relative;
+  z-index: 99999999;
+}
+.hyperlinks {
+  padding: 10px 0 10px 0;
+
+  text-align: center;
+}
+.hyperlinks a {
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: rgb(189, 184, 184);
+  text-decoration: none;
+  font-weight: bold;
+}
+header {
+  align-items: center;
+  background-image: url("../images/landingImage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: Gabriela, sans-serif;
+  margin: -6px -8px 0px;
+  padding: 150px;
+  text-align: center;
+  z-index: -9999999;
+}
+
+header h1 {
+  font-size: 60px;
+  color: #327995;
+  position: relative;
+  text-shadow: 5px 2px #212b00;
+  padding: 150px;
+  z-index: 5;
+}
+
+.whoweare {
+  display: inline-flex;
+}
+main {
+  width: 80%;
+  margin: 20px auto auto auto;
+}
+.text {
+  width: 1045px;
+  margin-right: 10px;
+}
+.whoweare img {
+  width: 30%;
+  height: 50%;
+  border-radius: 15px;
+}
+
+/* Offerings */
+.offerings section {
+  text-align: center;
+  width: 374px;
+  box-shadow: 12px 12px 2px 1px rgba(5, 75, 94, 0.4);
+  margin-right: 50px;
+  border-radius: 15px;
+}
+
+.offerings section img {
+  height: 250px;
+  border-radius: 15px;
+}
+
+section p {
+  text-align: center;
+  margin-left: 5px;
+}
+
+.cards {
+  display: inline-flex;
+  text-align: center;
+}
+
+.offerings {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.offerings h2 {
+  text-align: left;
+}
+
+/* Packages */
+.packages section {
+  text-align: center;
+  width: 450px;
+  height: 320px;
+  box-shadow: 12px 12px 2px 1px rgba(5, 75, 94, 0.4);
+  margin-right: 50px;
+  border-radius: 15px;
+}
+
+.packages section img {
+  height: 240px;
+  width: 450px;
+  border-radius: 15px;
+  object-fit: contain;
+}
+
+.cards {
+  display: inline-flex;
+  text-align: center;
+}
+
+.packages {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.packages h2 {
+  text-align: left;
+}
+
+h2 {
+  color: #6a8d02;
+}
+section {
+  background-color: white;
+}
+
+/* Footer */
+footer {
+  padding: 10px 10%;
+  margin: 10px -8px -10px;
+  text-align: center;
+}
+
+footer > div {
+  display: inline-block;
+  width: 33%;
+}
+
+footer nav a {
+  display: block;
+  padding: 0;
+  text-align: left;
+}
+footer {
+  font-size: 20px;
+  font-weight: bold;
+  color: #eee;
+}
