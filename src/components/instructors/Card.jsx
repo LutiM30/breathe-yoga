@@ -14,7 +14,6 @@ const Card = () => {
         [index]: true,
       };
     });
-
   const mouseOut = (index) =>
     setWidth((c) => {
       return {
